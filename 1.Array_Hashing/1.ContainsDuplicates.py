@@ -10,3 +10,7 @@ Output: true
 class Solution:
     def hasDups(self, array):
         return len(set(array)) < len(array)
+
+nums = [1, 2, 3, 3]
+sol = Solution()
+print(sol.hasDups(nums))
